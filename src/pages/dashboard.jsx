@@ -10,9 +10,9 @@ import playIcon from '../assets/actions/play.png';
 import cleanIcon from '../assets/actions/clean.png';
 import medIcon from '../assets/actions/med.png';
 // import other
-import rewardImage from '../assets/other/reward.png';
-import poopImage from '../assets/other/poop.png';
-import backgroundImage from '../assets/other/background.jpg';
+import rewardImage from '../assets/others/reward.png';
+import poopImage from '../assets/others/poop.png';
+import backgroundImage from '../assets/others/background.jpg';
 
 function Dashboard() {
   const navigate = useNavigate();
