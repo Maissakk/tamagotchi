@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Meter from './meter';
+import Meter from "../components/meter";
 import ActionButton from '../components/ActionButton';
 import animations from '../assets/animations';
 
@@ -9,9 +9,7 @@ import feedIcon from '../assets/actions/food.png';
 import playIcon from '../assets/actions/play.png';
 import cleanIcon from '../assets/actions/clean.png';
 import medIcon from '../assets/actions/med.png';
-// Import meter icons
-import heartIcon from '../assets/meters/heart.png';
-//import species
+
 import mochiImage from '../assets/animations/mochianim/mochi_default.png';
 import kittyImage from '../assets/animations/kittyanim/kitty_default.png';
 import whaleImage from '../assets/animations/whaleanim/whale_default.png';
