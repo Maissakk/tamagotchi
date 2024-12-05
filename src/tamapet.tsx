@@ -30,11 +30,6 @@ const species = {
     fullness: 90,
     happiness: 80,
     energy: 90
-  },
-  peach: {
-    fullness: 100,
-    happiness: 100,
-    energy: 10
   }
 };
 
