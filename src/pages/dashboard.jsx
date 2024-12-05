@@ -12,9 +12,9 @@ import medIcon from '../assets/actions/med.png';
 // Import meter icons
 import heartIcon from '../assets/meters/heart.png';
 //import species
-import mochiImage from '../assets/species/mochi.png';
-import kittyImage from '../assets/species/kitty.png';
-import whaleImage from '../assets/species/whale.png';
+import mochiImage from '../assets/animations/mochianim/mochi_default.png';
+import kittyImage from '../assets/animations/kittyanim/kitty_default.png';
+import whaleImage from '../assets/animations/whaleanim/whale_default.png';
 // import other
 import rewardImage from '../assets/other/reward.png';
 import poopImage from '../assets/other/poop.png';

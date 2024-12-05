@@ -1,9 +1,9 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 
-import mochiImage from '../assets/species/mochi.png'; 
-import kittyImage from '../assets/species/kitty.png';
-import whaleImage from '../assets/species/whale.png';
+import mochiImage from '../assets/animations/mochianim/mochi_default.png'; 
+import kittyImage from '../assets/animations/kittyanim/kitty_default.png';
+import whaleImage from '../assets/animations/whaleanim/whale_default.png';
 
 const speciesTypes = [
     { name: 'Mochi', image: mochiImage },
