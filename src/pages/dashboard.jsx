@@ -12,7 +12,7 @@ import medIcon from '../assets/actions/med.png';
 // import other
 import rewardImage from '../assets/others/reward.png';
 import poopImage from '../assets/others/poop.png';
-import backgroundImage from '../assets/others/background.jpg';
+import backgroundImage from '../assets/others/background.png';
 
 function Dashboard() {
   const navigate = useNavigate();
