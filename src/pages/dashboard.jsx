@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Meter from "../components/meter";
 import ActionButton from '../components/ActionButton';
-import animations from '..src/assets/animations/animations.js';
+import animations from '../assets/animations/animations.js';
 
 // Import icon
 import feedIcon from '../assets/actions/food.png';
