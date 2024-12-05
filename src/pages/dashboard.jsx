@@ -2,29 +2,18 @@ import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Meter from "../components/meter";
 import ActionButton from '../components/ActionButton';
-import animations from '../assets/animations';
+import animations from '..src/assets/animations/animations.js';
 
 // Import icon
 import feedIcon from '../assets/actions/food.png';
 import playIcon from '../assets/actions/play.png';
 import cleanIcon from '../assets/actions/clean.png';
 import medIcon from '../assets/actions/med.png';
-
-import mochiImage from '../assets/animations/mochianim/mochi_default.png';
-import kittyImage from '../assets/animations/kittyanim/kitty_default.png';
-import whaleImage from '../assets/animations/whaleanim/whale_default.png';
 // import other
 import rewardImage from '../assets/other/reward.png';
 import poopImage from '../assets/other/poop.png';
 import backgroundImage from '../assets/other/background.jpg';
-//species to images
-const speciesImages = {
-  egg: eggImage,
-  kitty: kittyImage,
-  whale: whaleImage,
-  mochi: mochiImage,
-  peach: peachImage,
-};
+
 function Dashboard() {
   const navigate = useNavigate();
   const [species, setSpecies] = useState(localStorage.getItem('selectedSpecies') || 'mochi'); 
