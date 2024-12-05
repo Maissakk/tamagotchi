@@ -1,12 +1,9 @@
-import React, { useState, useEffect } from "react";
-
-interface TamaProps {
-  name: string;
-}
+import React from "react";
 
 type Action = "feed" | "play" | "sleep" | "check";
 
-interface TamaState {
+interface TamaInformation {
+  name: string;
   fullness: number;
   happiness: number;
   energy: number;
@@ -36,16 +33,15 @@ const species = {
   }
 };
 
-const initialState: TamaState = {
+const initialState: TamaInformation = {
+  // Find way to input name
+  name: "Tamapet",
   fullness: species.egg.fullness,
   happiness: species.egg.happiness,
   energy: species.egg.energy,
   species: "egg"
 }
 
-const Tamapet: React.FC<TamaProps> = ({ name }) => {
-  const [state, setState] = useState<TamaState>(initialState)
+const Tamapet: React.FC = () => {
 
 }
-
-export default Tamapet;

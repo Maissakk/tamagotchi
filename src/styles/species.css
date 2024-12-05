@@ -1,0 +1,39 @@
+.species-selection {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .species-selection h1 {
+    margin-bottom: 20px;
+  }
+  
+  .species-options {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .species-option {
+    cursor: pointer;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .species-option:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .species-option img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
